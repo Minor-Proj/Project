@@ -34,10 +34,12 @@ def get_content_from_wikipedia(search_key):
     except:
         driver.quit()
 
-    print(elem.text)
+    data = elem.text
+    # data = data[:4000]
+    return data
     # driver.quit()
 
 
 
-if _name_ == "_main_":
-    get_content_from_wikipedia("issac newton")
+# if __name__ == "__main__":
+#     get_content_from_wikipedia("issac newton")

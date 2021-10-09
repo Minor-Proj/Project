@@ -36,9 +36,15 @@
     <div class="mastery">Please give access to microphone<br></div>
     </section>
     <div >
-        <input id="searchbar" type="text" name="search" placeholder="Enter space key to search">
+        <form action="/" method="post">
+            <input id="searchbar" type="text" name="search" placeholder="Enter space key to search">
+            <input type="submit" value="submit" name="submit">
+        </form>
     </div>
 
+    <div id="main">
+        {{data}}
+    </div>
     
     <!-- <button id="close-image"><img src=""></button> -->
 <!-- <button id="close-CSS"></button> -->
