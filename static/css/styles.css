@@ -5,15 +5,17 @@
     font-family:  'STIX Two Math', serif;
     box-sizing: border-box;
 }
-body{
-    background: linear-gradient(rgba(62, 108, 165, 0.9), rgba(243, 242, 245, 0.7)), url("Online-Education-in-india.jpg");
+
+
+/* body{
+    background: linear-gradient(rgba(62, 108, 165, 0.9), rgba(243, 242, 245, 0.7)), url("{{url_for('static',filename='images/Online-Education-in-india.jpg')}}");
     height: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
     
-}
+} */
 /* .navbar{
     margin:12px 60px;
     display: inline-block;
